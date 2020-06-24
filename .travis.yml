@@ -1,8 +1,10 @@
+language: ruby
+  
+rvm: 
+    [
+    "2.6.6",
+    ]
+
 branches:
   only:
   - master
-
-jobs:
-  include:
-    - stage: "demo time"
-      script: sleep 10
