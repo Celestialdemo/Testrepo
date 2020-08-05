@@ -10,4 +10,4 @@ branches:
   - master
 
 script:
- - sleep 6000
+ - sleep 60
